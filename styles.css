@@ -263,14 +263,15 @@ span{
 }
 @media screen and (max-width:678px){
     header nav h3{
-        margin-left: 0;
-        text-align: center;
-        font-size: 12px;
+        display: none;
     }
     .carousel .list .item .content{
         padding-right: 0;
     }
     .carousel .list .item .content .title{
         font-size: 30px;
+    }
+    .des p{
+        font-size: 10px;
     }
 }

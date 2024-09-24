@@ -21,6 +21,12 @@ header{
 header nav{
     margin-left: 13%;
 }
+span{
+    color: rgb(255, 197, 72);
+}
+.des p{
+    font-size: 13px;
+}
 .carousel {
     filter: brightness(0.8);
     position: fixed;
@@ -57,6 +63,7 @@ header nav{
 }
 .carousel .list .item .content .title,
 .carousel .list .item .content .topic {
+    color: rgb(255, 197, 72);
     font-weight: bold;
     font-size: 5em;
     list-style: 1.3em;
